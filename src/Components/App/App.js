@@ -1,12 +1,17 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import NavBar from "../Navbar";
+import Dash from "../Dash";
 
 function App() {
   return (
-    <div className="App">
-      <h2> hello </h2>
-    </div>
+    <>
+      <NavBar />
+      <div className="App">
+        <Dash />
+      </div>
+    </>
   );
 }
 

@@ -1,0 +1,33 @@
+.nav {
+  width: 100%;
+  background-color: rgb(85, 81, 81);
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  float: left;
+  position: absolute;
+  top: 0px;
+  left: -10px;
+}
+
+.searchBar {
+  height: 30px;
+  width: 40vw;
+  position: absolute;
+  left: 80px;
+  top: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(199, 199, 199);
+}
+
+.title {
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+}
